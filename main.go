@@ -1,8 +1,9 @@
 package main
 
 import (
-"fmt"
-"github.com/LuiSnake3/goDesde0/ejercicios"	
+	//"fmt"
+
+	"github.com/LuiSnake3/goDesde0/files"
 )
 
 func main() {
@@ -27,8 +28,19 @@ func main() {
   	
   }*/
 
-  numero, texto := ejercicios.ConvNumerico("asd")
+ /*numero, texto := ejercicios.ConvNumerico("500")
   fmt.Println(numero)
   fmt.Println(texto)
+  
+
+  teclado.IngresoNumeros()*/
+
+  //fmt.Println(ejercicios.TabladeMultiplicar())
+
+  //files.GrabaTabla()
+
+  //files.SumaTabla()
+
+  files.LeoArchivo()
 }
 
